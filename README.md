@@ -62,3 +62,22 @@ Contact: archive@fhi.mpg.de
 
 </VirtualHost>
 ```
+## Step 4: Check and adapt settings in 'archive.conf'
+
+- set name and base url
+- add database settings
+- add ldap if wanted
+- define your document types and metadata
+
+## Step 5: Settings in php.ini
+
+```
+short_open_tag = On
+max_execution_time = 300
+max_input_time = 600
+memory_limit = 1024Mpost_max_size = 10000M
+file_uploads = On
+upload_max_filesize = 10000M
+max_file_uploads = 20
+```
+
