@@ -69,7 +69,7 @@ Contact: archive@fhi.mpg.de
 - add ldap if wanted
 - define your document types and metadata
 
-## Step 5: Settings in php.ini
+## Step 5: Adapt settings in php.ini
 
 ```
 short_open_tag = On
