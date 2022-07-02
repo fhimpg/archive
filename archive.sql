@@ -71,7 +71,7 @@ CREATE TABLE `cat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 DROP TABLE IF EXISTS `docs`;
-1 SET @saved_cs_client     = @@character_set_client */;
+/*! SET @saved_cs_client     = @@character_set_client */;
 CREATE TABLE `docs` (
   `docid` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `catid` int(11) DEFAULT NULL,
@@ -148,7 +148,7 @@ CREATE TABLE `projects` (
   `private` int(11) unsigned NOT NULL DEFAULT 0,
   `pname` varchar(32) DEFAULT NULL,
   `comment` varchar(255) DEFAULT '',
- (`pid`)
+  PRIMARY KEY (`pid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 DROP TABLE IF EXISTS `role`;
