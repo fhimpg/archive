@@ -1,3 +1,3 @@
 # archive
 
-this repo has moved: https://gitea1.fhi.mpg.de/mike/archive.doc
+this repo has moved: https://git.public.fhi.mpg.de/mike/archive.doc
